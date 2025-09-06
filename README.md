@@ -38,7 +38,7 @@ ScreenLogger是一款Android应用程序，用于记录和可视化手机屏幕�
 ### 安装步骤
 1. 克隆项目仓库
    ```bash
-   git clone https://your-repository-url/screenlogger.git
+   git clone https://github.com/acd407/ScreenLogger.git
    ```
 2. 使用Android Studio打开项目
 3. 同步Gradle依赖
