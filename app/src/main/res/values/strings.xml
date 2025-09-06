@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ScreenLogger</string>
+    <string name="last_screen_on_time">上次亮屏时间: %s</string>
+    <string name="last_screen_off_time">上次熄屏时间: %s</string>
+    <string name="last_screen_on_time_default">上次亮屏时间: 暂无记录</string>
+    <string name="last_screen_off_time_default">上次熄屏时间: 暂无记录</string>
+    <string name="recent_events_header">最近12小时内的屏幕状态记录</string>
+    <string name="event_type_header">事件类型</string>
+    <string name="timestamp_header">时间戳</string>
+    <string name="no_data_message">暂无记录数据</string>
+    <string name="screen_on_text">屏幕亮起</string>
+    <string name="screen_off_text">屏幕关闭</string>
+</resources>
