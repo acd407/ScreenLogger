@@ -6,4 +6,16 @@
     <color name="teal_700">#018786</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="primary_color">#4CAF50</color>
+    <color name="error_color">#F44336</color>
+    <color name="status_background_color">#F5F5F5</color>
+    <color name="status_border_color">#E0E0E0</color>
+    
+    <!-- 进程控制Fragment相关颜色 -->
+    <color name="process_status_background">#F0F8FF</color>
+    <color name="process_status_border">#B0C4DE</color>
+    <color name="controls_background">#F8F9FA</color>
+    <color name="controls_border">#DEE2E6</color>
+    <color name="logs_background">#FFFFFF</color>
+    <color name="logs_border">#E0E0E0</color>
 </resources>

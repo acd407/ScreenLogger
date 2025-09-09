@@ -127,6 +127,60 @@ dist
 *.ipr
 out/
 
+# C++ and Clang related files
+compile_commands.json
+.clangd
+.clang-format
+.clang-tidy
+.cache
+*.o
+*.obj
+*.d
+*.so
+*.dll
+*.lib
+*.exe
+*.ilk
+*.pdb
+*.map
+*.sym
+*.dSYM/
+*.su
+*.gcno
+*.gcda
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+CMakeLists.txt.user
+
+# IDE specific C++ files
+.vscode/
+.ccls-cache/
+.cache/
+.ycm_extra_conf.py
+.ycm_extra_conf.pyc
+
+# Local configuration files
+*.local
+
+# Build directories
+build*/
+build-
+*-build/
+app/.cxx/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+.DS_Store
+
 # User-specific configurations
 .idea/libraries/
 .idea/workspace.xml

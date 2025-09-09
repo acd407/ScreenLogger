@@ -4,6 +4,8 @@
     
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 请求忽略电池优化的权限 -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
     
     <application
         android:allowBackup="true"
@@ -25,9 +27,13 @@
             </intent-filter>
         </activity>
         
+        <!-- 后台服务配置为独立进程 -->
         <service
             android:name=".ScreenStateService"
-            android:exported="false" />
+            android:exported="false"
+            android:process=":background_process" />
+        
+        <!-- 移除ScreenStateReceiver的声明，因为它将由后台服务管理 -->
         
         <receiver
             android:name=".BootReceiver"
